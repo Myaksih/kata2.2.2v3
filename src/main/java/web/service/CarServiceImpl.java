@@ -1,13 +1,13 @@
-package ControllersAndServices.service;
+package web.service;
 
-import model.Car;
+import web.model.Car;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 @Component
-public class CarServiceImpl implements CarService{
+public class CarServiceImpl implements CarService {
     @Override
     public List<Car> carsCount(int number) {
 
